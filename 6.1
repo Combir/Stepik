@@ -44,3 +44,42 @@ max_ = max(a1, a2, a3, a4, a5)
 print("Наименьшее число =", min_)
 print("Наибольшее число =", max_)
 
+#9
+a = int(input())
+a1 = int(input())
+a2 = int(input())
+min_, max_ = min(a, a1, a2), max(a, a1, a2)
+summ_ = (a + a1 + a2) - min_ - max_
+print(max_, summ_, min_, sep = "\n") # end = "\n"
+
+#10
+a = input()
+min_ = min(int(a[0]), int(a[1]), int(a[2]))
+max_ = max(int(a[0]), int(a[1]), int(a[2]))
+per = 0
+if min_ < int(a[0]) < max_:
+    per = int(a[0])
+if min_ < int(a[1]) < max_:
+    per = int(a[1])
+if min_ < int(a[2]) < max_:
+    per = int(a[2])
+if max_ - min_ == per:
+    print("Число интересное")
+else:
+    print("Число неинтересное")
+
+#11
+a1 = float(input())
+a2 = float(input())
+a3 = float(input())
+a4 = float(input())
+a5 = float(input())
+print(abs(a1) + abs(a2) + abs(a3) + abs(a4) + abs(a5))
+
+#12
+p1 = int(input())
+p2 = int(input())
+q1 = int(input())
+q2 = int(input())
+print(abs(p1-q1)+abs(p2-q2))
+
