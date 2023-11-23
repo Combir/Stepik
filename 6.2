@@ -1,0 +1,52 @@
+#1
+
+#2
+firstname = input()
+lastname = input()
+print("Hello",firstname,lastname +"!","You","have","just","delved","into","Python", sep=" ")
+
+#3
+name = input()
+print("Футбольная команда",name,"имеет","длину",len(name),"символов",sep=" ")
+
+#4
+g1, g2, g3 = input(), input(), input()
+c1, c2, c3 = len(g1), len(g2), len(g3)
+s = [c1, c2, c3]
+min_ = min(s)
+max_ = max(s)
+if c1 == min_:
+    print(g1)
+if c2 == min_:
+    print(g2)
+if c3 == min_:
+    print(g3)
+if c1 == max_:
+    print(g1)
+if c2 == max_:
+    print(g2)
+if c3 == max_:
+    print(g3)
+
+#5
+
+#6
+s = input()
+if "синий" in s:
+    print("YES")
+else:
+    print("NO")
+
+#7
+s = input()
+if ("суббота" in s) or ("воскресенье" in s):
+    print("YES")
+else:
+    print("NO")
+
+#8
+s = input()
+if "@" in s and "." in s:
+    print("YES")
+else:
+    print("NO")
