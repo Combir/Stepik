@@ -1,4 +1,3 @@
-#1
 n, m = int(input()), int(input())
 count = 0
 if m <= m:
